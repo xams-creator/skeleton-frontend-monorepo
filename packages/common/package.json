@@ -1,0 +1,33 @@
+{
+    "name": "@skeleton-frontend/common",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "files": [
+        "lib"
+    ],
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "private": false,
+    "peerDependencies": {
+        "react": ">=17.0.1",
+        "react-dom": ">=17.0.1"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/react": "^17.0.1",
+        "@types/react-dom": "^17.0.1",
+        "prettier": "latest",
+        "ts-loader": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "tsc -watch"
+    },
+    "author": "xams-creator"
+}
